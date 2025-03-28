@@ -38,13 +38,7 @@ public class CountStringandInteger {
 			System.out.print(letters+" ");
 		}
 		
-//		String rever="hello";
-//		
-//		StringBuilder sb=new StringBuilder(rever);
-//		StringBuilder reverse = sb.reverse();
-//		System.out.println(reverse.substring(1,4));
-//		String replace = reverse.substring(0, 1).toUpperCase()+reverse.substring(1).toLowerCase();
-//		System.out.print(replace);
+
 		
 		
 
