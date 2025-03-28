@@ -1,0 +1,80 @@
+package StringConcept;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Find_DuplicateElement_inArray {
+
+	public static void main(String[] args) {
+	
+		
+		//Fiding Duplicate character in Array
+//		char arr[]= {'a','b','c','b','d','e','a','e'};
+//		for(int i=0;i<arr.length;i++) {
+//			for(int j=i+1;j<arr.length;j++) {
+//				if(arr[i]==arr[j]) {
+//					System.out.println("Duplicate Element is "+arr[i]);
+//				}
+//			}
+//		}
+		//Finding Duplicate Strung in Array
+//		String name[]= {"Vasanth","Nijanth","Meena","nijanTh"};
+//		for(int i=0;i<name.length;i++) {
+//			for(int j=i+1;j<name.length;j++) {
+//				if(name[i].equalsIgnoreCase(name[j])) {
+//					System.out.println("Duplicate Element is "+name[i]);
+//				}
+//			}
+//		}
+		//Above both are worst solution,,There is another method to reduce time
+		String cc="abacbdc";
+		
+		
+		char ch[]= {'a','b','a','c','b','d','c'};
+		Set<Character> se=new HashSet<Character>();
+		for (Character c : ch) {
+			if(se.add(c)==false)
+				System.out.print(c);
+		}
+		System.out.println(" ------------------------");
+		
+//		for(int i=0;i<cc.length();i++) {
+//			char[] charArray=cc.toCharArray();
+//			
+//			if(se.add(charArray[i])==false)
+//				System.out.print(charArray[i]);
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		Set<Object> a=new HashSet<Object>();
+//		String character="aaabfbbcdddeeeec";
+//		int Duplicatecount=0;
+//		for(int i=0;i<character.length();i++) {
+//			for(int j=i+1;j<character.length();j++) {
+//				if(character.charAt(i)!=character.charAt(j)) {
+//					
+//					a.add(character.charAt(i));
+//					
+//				}
+//				
+//				
+//			}
+//		}
+//		System.out.println("Duplicate Elements are ");
+//		for(Object cha:a) {
+//			System.out.print(cha+" ");
+//		}
+//		System.out.println();
+//		
+		
+	}
+
+}
